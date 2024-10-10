@@ -12,7 +12,7 @@ def show_page():
 page = st.selectbox("Choisissez une catégorie d'animaux :",
                     ["Accueil", "Animaux Exotiques", "Animaux Normaux", "Petits Animaux"])
 # Présentation des animaux
-display_animal(
+test_display_animal(
     name="Kim-Jong Un",
     age=5,
     image_url="images/small/maxresdefault.jpg",
@@ -21,7 +21,7 @@ display_animal(
 )
 
 # Présentation des animaux
-display_animal(
+test_display_animal(
     name="Macron",
     age=5,
     image_url="images/small/Sans titre.jpg",
@@ -29,7 +29,7 @@ display_animal(
     price=500
 )
 # Présentation des animaux
-display_animal(
+test_display_animal(
     name="Jean-cache-Sex",
     age=5,
     image_url="images/small/hamster.jpg",
@@ -37,7 +37,7 @@ display_animal(
     price=500
 )
 # Présentation des animaux
-display_animal(
+test_display_animal(
     name="Fabrice Eboué",
     age=5,
     image_url="images/small/maxresdefault.jpg",
@@ -45,7 +45,7 @@ display_animal(
     price=500
 )
 # Présentation des animaux
-display_animal(
+test_display_animal(
     name="Griffondor",
     age=5,
     image_url="images/small/hasmter2.jpg",
@@ -53,7 +53,7 @@ display_animal(
     price=500
 )
 # Présentation des animaux
-display_animal(
+test_display_animal(
     name="Bou-che-ra",
     age=5,
     image_url="images/small/hasmter.jpg",
