@@ -2,7 +2,7 @@ import sys
 import os
 import streamlit as st
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-from  frontend.template.animal_template import display_animal
+from frontend.template.animal_template import display_animal_list, get_animals,test_display_animal
 
 def show_page():
     st.title("Petits Animaux")

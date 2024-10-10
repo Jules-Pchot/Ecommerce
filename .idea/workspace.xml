@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ebd6c91-02f5-4c4a-a6db-0b21843a713c" name="Changes" comment="Config Files">
-      <change afterPath="$PROJECT_DIR$/frontend/images/max.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/images/small/Sans titre.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/images/small/hamster.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/images/small/hasmter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/images/small/hasmter2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/images/small/maxresdefault.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/template/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/template/animal_template.py" afterDir="false" />
+    <list default="true" id="4ebd6c91-02f5-4c4a-a6db-0b21843a713c" name="Changes" comment="last image">
+      <change afterPath="$PROJECT_DIR$/frontend/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/payment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/exotic.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/exotic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/normal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/small.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/small.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/template/animal_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/template/animal_template.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +116,7 @@
       <updated>1728406184782</updated>
       <workItem from="1728406187943" duration="4431000" />
       <workItem from="1728417873660" duration="376000" />
-      <workItem from="1728493546025" duration="9343000" />
+      <workItem from="1728493546025" duration="11178000" />
     </task>
     <task id="LOCAL-00001" summary="Start App">
       <option name="closed" value="true" />
@@ -165,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728543408721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added front and images">
+      <option name="closed" value="true" />
+      <created>1728547031321</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728547031321</updated>
+    </task>
+    <task id="LOCAL-00007" summary="last image">
+      <option name="closed" value="true" />
+      <created>1728547058660</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728547058660</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +186,8 @@
     <MESSAGE value="Circular bug fixed" />
     <MESSAGE value="Added frontEnd" />
     <MESSAGE value="Config Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config Files" />
+    <MESSAGE value="added front and images" />
+    <MESSAGE value="last image" />
+    <option name="LAST_COMMIT_MESSAGE" value="last image" />
   </component>
 </project>

@@ -2,13 +2,13 @@ import sys
 import os
 import streamlit as st
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-from  frontend.template.animal_template import display_animal
+from frontend.template.animal_template import display_animal_list, get_animals,test_display_animal
 
 def show_page():
     st.title("Animaux Normaux")
     st.write("Découvrez nos animaux domestiques classiques, parfaits pour la maison.")
 
-display_animal(
+test_display_animal(
     name="Whiskers",
     age=3,
     image_url="images/whiskers.jpg",
@@ -17,7 +17,7 @@ display_animal(
 )
 
 # Présentation des animaux
-display_animal(
+test_display_animal(
     name="Max",
     age=5,
     image_url="images/max.jpg",
