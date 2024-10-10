@@ -1,5 +1,5 @@
-from models.users import User
-from app import db
+from backend.models.users import User
+from backend.app import db
 from werkzeug.security import generate_password_hash, check_password_hash
 
 def create_user(data):

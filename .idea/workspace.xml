@@ -4,8 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ebd6c91-02f5-4c4a-a6db-0b21843a713c" name="Changes" comment="Added init files to complete workspace">
+    <list default="true" id="4ebd6c91-02f5-4c4a-a6db-0b21843a713c" name="Changes" comment="Circular bug fixed">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/orderItem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/populate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/users_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/services/orderItem_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/exotic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/normal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/small.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/animals_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/animals_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/orders_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/orders_route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users_routes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/animal_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/animal_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/animal_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/animal_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/orders_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/orders_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/users_services.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +72,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Ecommerce" type="Python.FlaskServer">
       <module name="Ecommerce" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="target" value="$PROJECT_DIR$/backend/app.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +131,7 @@
       <updated>1728406184782</updated>
       <workItem from="1728406187943" duration="4431000" />
       <workItem from="1728417873660" duration="376000" />
-      <workItem from="1728493546025" duration="321000" />
+      <workItem from="1728493546025" duration="6944000" />
     </task>
     <task id="LOCAL-00001" summary="Start App">
       <option name="closed" value="true" />
@@ -110,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728417931993</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Circular bug fixed">
+      <option name="closed" value="true" />
+      <created>1728494106415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728494106415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start App" />
     <MESSAGE value="Added init files to complete workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added init files to complete workspace" />
+    <MESSAGE value="Circular bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular bug fixed" />
   </component>
 </project>

@@ -1,5 +1,5 @@
-from models.orders import Order
-from app import db
+from backend.models.orders import Order
+from backend.app import db
 
 def create_order(data):
     order = Order(**data)

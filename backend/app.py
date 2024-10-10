@@ -13,6 +13,10 @@ def create_app():
     app = Flask(__name__)
     app.config.from_object('config')
 
+    # Configurations JWT
+    app.config['JWT_SECRET_KEY'] = 'super-secret-key'
+    app.config['JWT_ACCESS_TOKEN_EXPIRES'] = 15000000
+
     # Initialiser les extensions
     db.init_app(app)
     ma.init_app(app)
@@ -30,4 +34,4 @@ def create_app():
 
 if __name__ == '__main__':
     app = create_app()
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)

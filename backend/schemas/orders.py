@@ -1,5 +1,5 @@
-from app import ma
-from models.orders import Order
+from backend.app import ma
+from backend.models.orders import Order
 
 class OrderSchema(ma.SQLAlchemyAutoSchema):
     class Meta:

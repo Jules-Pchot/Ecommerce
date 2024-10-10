@@ -1,5 +1,5 @@
-from app import ma
-from models.animal import Animal
+from backend.app import ma
+from backend.models.animal import Animal
 
 class AnimalSchema(ma.SQLAlchemyAutoSchema):
     class Meta:

@@ -1,4 +1,4 @@
-from app import db  # Assurez-vous que ceci ne cause pas un cycle d'importation
+from backend.app import db  # Assurez-vous que ceci ne cause pas un cycle d'importation
 
 class Animal(db.Model):
     id = db.Column(db.Integer, primary_key=True)
